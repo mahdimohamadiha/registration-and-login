@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3CsJbcQ/0F2MElParFGex15JZQjY72jb2zPfixsqqvpNAAAFJSMGWZ+BxppJn1agsZU0DUBu7h+bg4ciCAA5A==",
+  "dgSpecHash": "DeWNgcXFA0fgN2XrRu54+lQzL3xC2DUwAuLA38qXakAFpVTxJ/LH2TlVO0ignGHZT787KUmKGbDqufjPQmzwgw==",
   "success": true,
-  "projectFilePath": "D:\\.NET\\.NET MVC\\Registration and Login\\Registration and Login.csproj",
+  "projectFilePath": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\Registration and Login.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

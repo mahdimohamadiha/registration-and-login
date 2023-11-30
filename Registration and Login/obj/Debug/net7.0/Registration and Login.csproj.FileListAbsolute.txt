@@ -29,3 +29,34 @@ D:\.NET\.NET MVC\Registration and Login\obj\Debug\net7.0\refint\Registration and
 D:\.NET\.NET MVC\Registration and Login\obj\Debug\net7.0\Registration and Login.pdb
 D:\.NET\.NET MVC\Registration and Login\obj\Debug\net7.0\Registration and Login.genruntimeconfig.cache
 D:\.NET\.NET MVC\Registration and Login\obj\Debug\net7.0\ref\Registration and Login.dll
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\appsettings.Development.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\appsettings.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.staticwebassets.runtime.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.exe
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.deps.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.runtimeconfig.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.dll
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Registration and Login.pdb
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.csproj.AssemblyReference.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.AssemblyInfoInputs.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.AssemblyInfo.cs
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.csproj.CoreCompileInputs.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.RazorAssemblyInfo.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.RazorAssemblyInfo.cs
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets\msbuild.Registration and Login.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets\msbuild.build.Registration and Login.props
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Registration and Login.props
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Registration and Login.props
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets.pack.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets.build.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\staticwebassets.development.json
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\scopedcss\bundle\Registration and Login.styles.css
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\scopedcss\projectbundle\Registration and Login.bundle.scp.css
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.dll
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\refint\Registration and Login.dll
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.pdb
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.genruntimeconfig.cache
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\ref\Registration and Login.dll

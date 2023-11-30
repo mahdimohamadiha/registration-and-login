@@ -9,33 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Registration_and_Login
 build_property.RootNamespace = Registration_and_Login
-build_property.ProjectDir = D:\.NET\.NET MVC\Registration and Login\
+build_property.ProjectDir = D:\.NET\.NET MVC\registration-and-login\Registration and Login\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\.NET\.NET MVC\Registration and Login
+build_property.MSBuildProjectDirectory = D:\.NET\.NET MVC\registration-and-login\Registration and Login
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/Home/Index.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/CreateAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/Shared/Error.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/_ViewImports.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/SignIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbkluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/_ViewStart.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET/.NET MVC/Registration and Login/Views/Shared/_Layout.cshtml]
+[D:/.NET/.NET MVC/registration-and-login/Registration and Login/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kmp05bzhan

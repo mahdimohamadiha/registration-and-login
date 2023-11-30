@@ -8,6 +8,11 @@
     src: url(../fonts/Inter-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter-Semi-Bold;
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -19,29 +24,70 @@ body {
 
 .image {
     display: block;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 60px;
     width: 350px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-    .title h2 {
-        font-family: Poppins-Bold;
-        font-size: 32px;
-    }
+.title h2 {
+    font-family: Poppins-Bold;
+    font-size: 32px;
+}
 
 .title p {
     font-family: Inter-Regular;
     margin-top: 10px;
     font-size: 17px
+}
+
+.sign-in-button {
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 55px;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sign-in-button p {
+    font-family: Inter-Semi-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.create-account-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #747474;
+    text-decoration: none;
+}
+
+.create-account-button p {
+    font-family: Inter-Semi-Bold;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding-top: 15px;
 }
 
 
