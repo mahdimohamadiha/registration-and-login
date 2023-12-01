@@ -90,4 +90,61 @@ body {
     padding-top: 15px;
 }
 
+.bg {
+    background-color: #F0F3FB;
+    width: 373px;
+    height: 816px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 32px;
+}
 
+.image-create-account {
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.input-email {
+    height: 55px;
+    width: 350px;
+    border: 1px solid #D8DADC;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.input-email::placeholder {
+    color: #0000007f;
+}
+
+.input-email-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.input-password-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input-password {
+    height: 55px;
+    width: 350px;
+    border: 1px solid #D8DADC;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.input-confirm-password-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input-confirm-password {
+    height: 55px;
+    width: 350px;
+    border: 1px solid #D8DADC;
+    border-radius: 10px;
+    padding-left: 15px;
+}
