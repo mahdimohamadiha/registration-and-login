@@ -7,16 +7,26 @@
 			<h2>Create account</h2>
 		</div>
 		<div class="input-email-container">
-			<input class="input-email" placeholder="Email address" />
+			<input class="input-email" placeholder="Email address" type="email" />
 		</div>
 		<div class="input-password-container">
-			<input class="input-password" placeholder="Password" />
+			<input class="input-password" placeholder="Password" type="password" id="id_password" />
+			<img src="/icons/eye-hide.png" id="togglePassword" />
 		</div>
 		<div class="input-confirm-password-container">
-			<input class="input-confirm-password" placeholder="Confirm password" />
+			<input class="input-confirm-password" placeholder="Confirm password" type="password" id="id_confirm_password" />
+			<img src="/icons/eye-hide.png" id="toggleConfirmPassword" />
 		</div>
-		<div class="">
-
+		<a class="create-account-button2" asp-controller="/" asp-action="/">
+			<p>Create account</p>
+		</a>
+		<div class="qualification">
+			<span>
+				By creating an account or signing you agree to our 
+			</span>
+			<a asp-controller="/" asp-action="/">
+				Terms and Conditions
+			</a>
 		</div>
 	</div>
 </div>

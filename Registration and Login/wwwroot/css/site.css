@@ -126,7 +126,15 @@ body {
 .input-password-container {
     margin-top: 15px;
     text-align: center;
+    margin-left: -16px;
+    
 }
+
+    .input-password-container img {
+        margin-left: -43px;
+        margin-top: -5px;
+        cursor: pointer;
+    }
 
 .input-password {
     height: 55px;
@@ -139,7 +147,14 @@ body {
 .input-confirm-password-container {
     margin-top: 15px;
     text-align: center;
+    margin-left: -16px;
 }
+
+    .input-confirm-password-container img {
+        margin-left: -43px;
+        margin-top: -5px;
+        cursor: pointer;
+    }
 
 .input-confirm-password {
     height: 55px;
@@ -148,3 +163,39 @@ body {
     border-radius: 10px;
     padding-left: 15px;
 }
+
+.create-account-button2 {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    height: 55px;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+    .create-account-button2 p {
+        font-family: Inter-Semi-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+.qualification {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+}
+
+    .qualification a {
+        font-family: Inter-Semi-Bold;
+        color: #000000;
+    }

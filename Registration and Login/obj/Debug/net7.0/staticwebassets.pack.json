@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\fonts\\Poppins-Regular.ttf"
     },
     {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-hide.png",
+      "PackagePath": "staticwebassets\\icons\\eye-hide.png"
+    },
+    {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-show.png",
+      "PackagePath": "staticwebassets\\icons\\eye-show.png"
+    },
+    {
       "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\images\\Illustration.png",
       "PackagePath": "staticwebassets\\images\\Illustration.png"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KzbGyaa25+IYWZmxY26RWV1xcmO71peys/D5MsVviIo=",
+  "Hash": "JKfxem3BTp7ppk4YtFKf7tcpy83J6a/OI38/mwx3RZQ=",
   "Source": "Registration and Login",
   "BasePath": "_content/Registration and Login",
   "Mode": "Default",
@@ -151,6 +151,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\Poppins-Regular.ttf"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-hide.png",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "icons/eye-hide.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\eye-hide.png"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-show.png",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "icons/eye-show.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\eye-show.png"
     },
     {
       "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\images\\Illustration.png",
