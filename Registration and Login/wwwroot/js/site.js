@@ -32,3 +32,15 @@ function myFunction(pass_id, toggle_id) {
 
 myFunction('#id_password' ,'#togglePassword')
 myFunction('#id_confirm_password', '#toggleConfirmPassword')
+
+function validatePassword() {
+    var password = document.getElementById("id_password").value;
+    var confirmPassword = document.getElementById("id_confirm_password").value;
+
+    if (password !== confirmPassword) {
+        alert("Password and Confirm Password do not match");
+        return false; // Prevent form submission
+    }
+
+    return true; // Allow form submission
+}
