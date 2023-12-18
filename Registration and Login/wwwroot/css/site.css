@@ -93,7 +93,7 @@ body {
 .bg {
     background-color: #F0F3FB;
     width: 373px;
-    height: 816px;
+    /*height: 816px;*/
     margin: 20px 10px 10px 10px;
     border-radius: 32px;
 }
@@ -191,11 +191,74 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    height: 100px;
+    /*height: 100px;*/
+    /*margin-bottom: 50px;*/
+    padding-bottom: 40px;
     text-align: center;
 }
 
     .qualification a {
         font-family: Inter-Semi-Bold;
         color: #000000;
+        text-decoration: underline;
     }
+
+.error-list-registration {
+    font-family: Inter-Regular;
+    font-size: 15px;
+    color: red;
+    /*margin-left: 50px;*/
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.image-signin {
+    display: block;
+    padding-top: 40px;
+    margin-left: 320px;
+    width: 12%;
+}
+
+.title-signin {
+    margin-top: 60px;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.title-signin h2 {
+    font-family: Poppins-Bold;
+    font-size: 30px;
+}
+
+.label-email {
+    margin-right: 258px;
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.label-password {
+    margin-right: 266px;
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.label-forgot-password {
+    margin-left: 255px;
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+a {
+    font-family: Inter-Regular;
+    color: #000000;
+    text-decoration: none;
+}
+
+

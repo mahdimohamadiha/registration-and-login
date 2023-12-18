@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\Illustration.png"
     },
     {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\images\\Star 8.png",
+      "PackagePath": "staticwebassets\\images\\Star 8.png"
+    },
+    {
       "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

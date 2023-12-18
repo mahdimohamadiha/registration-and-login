@@ -10,7 +10,7 @@
 				<h2>Create account</h2>
 			</div>
 			<div class="input-email-container">
-				<input asp-for="Email" class="input-email" placeholder="Email address" type="email" />
+				<input id="email"  asp-for="Email" class="input-email" placeholder="Email address" type="email" />
 			</div>
 			<div class="input-password-container">
 				<input asp-for="Password" class="input-password" placeholder="Password" type="password" id="id_password" />
@@ -23,9 +23,9 @@
 			<button type="submit" class="create-account-button2">
 				<p>Create account</p>
 			</button>
-			@*<a class="create-account-button2" asp-controller="/" asp-action="/">
-				<p>Create account</p>
-			</a>*@
+			<ul class="error-list-registration">
+				<li hidden id="not_matching_password">Password and confirm password is not match</li>
+			</ul>
 			<div class="qualification">
 				<span>
 					By creating an account or signing you agree to our

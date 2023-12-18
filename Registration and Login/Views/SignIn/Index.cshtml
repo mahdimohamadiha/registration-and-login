@@ -1,1 +1,36 @@
-﻿
+﻿@model Users
+
+<form method="post">
+	<div>
+		<div>
+			<img src="/images/Star 8.png" class="image-signin" />
+		</div>
+		<div class="title-signin">
+			<h2>Log in</h2>
+		</div>
+		<div class="input-email-container">
+		<label class="label-email">Email address</label>
+			<input id="email" asp-for="Email" class="input-email" placeholder="Your email" type="email" />
+		</div>
+		<div class="input-password-container">
+			<label class="label-password">Password</label>
+			<input asp-for="Password" class="input-password" placeholder="Password" type="password" id="id_password" />
+			<img src="/icons/eye-hide.png" id="togglePassword" />
+		</div>
+		<label class="label-forgot-password"><a asp-controller ="/" asp-action="/">Forgot password?</a></label>
+		<button type="submit" class="create-account-button2">
+			<p>Log in</p>
+		</button>
+		<ul class="error-list-registration">
+			<li hidden id="not_matching_password">Password and confirm password is not match</li>
+		</ul>
+		<div class="qualification">
+			<span>
+				By creating an account or signing you agree to our
+			</span>
+			<a asp-controller="/" asp-action="/">
+				Terms and Conditions
+			</a>
+		</div>
+	</div>
+</form>

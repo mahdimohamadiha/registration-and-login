@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JKfxem3BTp7ppk4YtFKf7tcpy83J6a/OI38/mwx3RZQ=",
+  "Hash": "pKZg7g6uDv+iQaCuJj5V0jeLM9ts931T47Pk8sfSHOA=",
   "Source": "Registration and Login",
   "BasePath": "_content/Registration and Login",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Illustration.png"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\images\\Star 8.png",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "images/Star 8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Star 8.png"
     },
     {
       "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\js\\site.js",

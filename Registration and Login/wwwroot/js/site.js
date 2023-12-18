@@ -1,19 +1,4 @@
-﻿//const togglePassword = document.querySelector('#togglePassword');
-//const password = document.querySelector('#id_password');
-
-//togglePassword.addEventListener('click', function (e) {
-
-//    if (password.getAttribute('type') === 'password') {
-//        password.setAttribute('type', 'text');
-//        this.src = "/icons/eye-show.png"
-//    }
-//    else {
-//        password.setAttribute('type', 'password');
-//        this.src = "/icons/eye-hide.png"
-//    }
-//});
-
-function myFunction(pass_id, toggle_id) {
+﻿function myFunction(pass_id, toggle_id) {
     const togglePassword = document.querySelector(toggle_id);
     const password = document.querySelector(pass_id);
 
@@ -38,7 +23,8 @@ function validatePassword() {
     var confirmPassword = document.getElementById("id_confirm_password").value;
 
     if (password !== confirmPassword) {
-        alert("Password and Confirm Password do not match");
+        document.getElementById('not_matching_password').hidden = false;
+
         return false; // Prevent form submission
     }
 

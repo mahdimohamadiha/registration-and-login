@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Registration_and_Login.Data;
 using Registration_and_Login.Models;
 
 namespace Registration_and_Login.Controllers
 {
+	
 	public class CreateAccountController : Controller
 	{
 
@@ -27,7 +29,8 @@ namespace Registration_and_Login.Controllers
 				_db.SaveChanges();
 				return RedirectToAction("Index");
 			}
+
 			return View(users);
-		}
+		}	
 	}
 }
