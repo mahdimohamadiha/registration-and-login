@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pKZg7g6uDv+iQaCuJj5V0jeLM9ts931T47Pk8sfSHOA=",
+  "Hash": "iiq5MRiHoTsH52dZHmO1DUg609tHd+98v7HrEXYjCzo=",
   "Source": "Registration and Login",
   "BasePath": "_content/Registration and Login",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Poppins-Regular.ttf"
     },
     {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Apple.svg",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "icons/Apple.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\Apple.svg"
+    },
+    {
       "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-hide.png",
       "SourceId": "Registration and Login",
       "SourceType": "Discovered",
@@ -185,6 +202,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\eye-show.png"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Facebook.svg",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "icons/Facebook.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\Facebook.svg"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Google.svg",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "icons/Google.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\Google.svg"
     },
     {
       "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\images\\Illustration.png",

@@ -29,6 +29,18 @@
       "PackagePath": "staticwebassets\\fonts\\Poppins-Regular.ttf"
     },
     {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Apple.svg",
+      "PackagePath": "staticwebassets\\icons\\Apple.svg"
+    },
+    {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Facebook.svg",
+      "PackagePath": "staticwebassets\\icons\\Facebook.svg"
+    },
+    {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\Google.svg",
+      "PackagePath": "staticwebassets\\icons\\Google.svg"
+    },
+    {
       "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\icons\\eye-hide.png",
       "PackagePath": "staticwebassets\\icons\\eye-hide.png"
     },

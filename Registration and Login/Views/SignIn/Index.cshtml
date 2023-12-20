@@ -1,6 +1,6 @@
 ﻿@model Users
 
-<form method="post">
+<form action="/SignIn" method="post">
 	<div>
 		<div>
 			<img src="/images/Star 8.png" class="image-signin" />
@@ -9,12 +9,12 @@
 			<h2>Log in</h2>
 		</div>
 		<div class="input-email-container">
-		<label class="label-email">Email address</label>
-			<input id="email" asp-for="Email" class="input-email" placeholder="Your email" type="email" />
+			<label for="email" class="label-email">Email address</label>
+			<input name="email" id="email" asp-for="Email" class="input-email" placeholder="Your email" type="email" />
 		</div>
 		<div class="input-password-container">
-			<label class="label-password">Password</label>
-			<input asp-for="Password" class="input-password" placeholder="Password" type="password" id="id_password" />
+			<label for="password" class="label-password">Password</label>
+			<input name="password" asp-for="Password" class="input-password" placeholder="Password" type="password" id="id_password" />
 			<img src="/icons/eye-hide.png" id="togglePassword" />
 		</div>
 		<label class="label-forgot-password"><a asp-controller ="/" asp-action="/">Forgot password?</a></label>
@@ -27,19 +27,19 @@
 			<div></div>
 		</div>
 		<div class="other-login-logo-container">
-			<div><img src="./icons/facebook.svg" /></div>
-			<div><img src="./icons/Google.svg" /></div>
-			<div><img src="./icons/Apple.svg" /></div>
+			<a asp-controller="/" asp-action="/"><img src="./icons/facebook.svg" /></a>
+			<a asp-controller="/" asp-action="/"><img src="./icons/Google.svg" /></a>
+			<a asp-controller="/" asp-action="/"><img src="./icons/Apple.svg" /></a>
 		</div>
 		<ul class="error-list-registration">
 			<li hidden id="not_matching_password">Password and confirm password is not match</li>
 		</ul>
-		<div class="qualification">
+		<div class="signup">
 			<span>
-				By creating an account or signing you agree to our
+				Don’t have an account?
 			</span>
-			<a asp-controller="/" asp-action="/">
-				Terms and Conditions
+			<a asp-controller="CreateAccount" asp-action="Index">
+				Sign up
 			</a>
 		</div>
 	</div>
