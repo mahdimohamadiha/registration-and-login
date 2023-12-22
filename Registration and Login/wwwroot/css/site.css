@@ -204,20 +204,26 @@ body {
     }
 
 .error-list-registration {
+    
     font-family: Inter-Regular;
     font-size: 15px;
     color: red;
-    /*margin-left: 50px;*/
+    text-align: center;
+    margin-left: -30px;
     margin-top: 10px;
     margin-bottom: -40px;
 }
 
-.image-signin {
-    display: block;
-    padding-top: 40px;
-    margin-left: 320px;
-    width: 12%;
-}
+    .error-list-registration span {
+        display: block;
+    }
+
+    .image-signin {
+        display: block;
+        padding-top: 40px;
+        margin-left: 320px;
+        width: 12%;
+    }
 
 .title-signin {
     margin-top: 60px;

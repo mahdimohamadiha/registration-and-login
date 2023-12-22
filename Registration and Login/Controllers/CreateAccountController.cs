@@ -25,9 +25,14 @@ namespace Registration_and_Login.Controllers
 		{
 			if (ModelState.IsValid)
 			{
+				if (_db.Users.Any(u => u.Email == users.Email))
+				{
+					ModelState.AddModelError("Email", "Email already exists");
+					return View(users);
+				}
 				_db.Users.Add(users);
 				_db.SaveChanges();
-				return RedirectToAction("Index");
+				return RedirectToAction("Index", "Welcome");
 			}
 
 			return View(users);

@@ -24,7 +24,8 @@
 				<p>Create account</p>
 			</button>
 			<ul class="error-list-registration">
-				<li hidden id="not_matching_password">Password and confirm password is not match</li>
+				<span hidden id="not_matching_password" class="text-danger">Password and confirm password is not match</span>
+				<span asp-validation-for="Email" class="text-danger"></span>
 			</ul>
 			<div class="qualification">
 				<span>

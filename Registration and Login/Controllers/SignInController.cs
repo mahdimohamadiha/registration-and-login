@@ -25,7 +25,7 @@ namespace Registration_and_Login.Controllers
 				if (user.Password == password)
 				{
 					Console.WriteLine("True");
-					return View();
+					return RedirectToAction("Index", "Welcome");
 				}
 			}
 			return View();
