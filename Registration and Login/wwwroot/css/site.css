@@ -164,7 +164,7 @@ body {
     padding-left: 15px;
 }
 
-.create-account-button2 {
+.login-button {
     display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -176,7 +176,27 @@ body {
     text-decoration: none;
 }
 
-    .create-account-button2 p {
+    .login-button p {
+        font-family: Inter-Semi-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+.send-code-button {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    height: 55px;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+    .send-code-button p {
         font-family: Inter-Semi-Bold;
         font-size: 16px;
         color: #FFFFFF;
@@ -321,4 +341,41 @@ a {
     font-family: Inter-Semi-Bold;
     color: black;
     
+}
+
+.title-forgot-password {
+    margin-top: 60px;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+    .title-forgot-password h2 {
+        font-family: Poppins-Bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .title-forgot-password p {
+        font-family: Inter-Regular;
+        font-size: 16px;
+        opacity: 70%;
+        line-height: 130%
+    }
+
+
+
+.remember-password {
+    margin-top: 340px;
+    margin-left: 80px;
+}
+
+.remember-password span {
+    font-family: Inter-Regular;
+    opacity: 70%;
+}
+
+.remember-password a {
+    font-family: Inter-Semi-Bold;
+    color: black;
 }

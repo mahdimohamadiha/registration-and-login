@@ -104,3 +104,4 @@ D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\
 D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\.NET\.NET MVC\registration-and-login\Registration and Login\obj\Debug\net7.0\Registration and Login.csproj.CopyComplete
+D:\.NET\.NET MVC\registration-and-login\Registration and Login\bin\Debug\net7.0\Otp.NET.dll
