@@ -30,3 +30,17 @@ function validatePassword() {
 
     return true; // Allow form submission
 }
+
+
+function moveToNext(currentInput, nextInputId) {
+    const maxLength = parseInt(currentInput.getAttribute('maxlength'), 10);
+    const currentLength = currentInput.value.length;
+
+    if (currentLength >= maxLength) {
+        const nextInput = document.getElementById(nextInputId);
+        if (nextInput) {
+            nextInput.focus();
+        }
+    }
+}
+

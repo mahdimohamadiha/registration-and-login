@@ -1,0 +1,90 @@
+﻿@model Users
+
+<form action="/SignIn/Verify" method="post" id="codeForm">
+	<div>
+		<div>
+			<img src="/images/Star 8.png" class="image-signin" />
+		</div>
+		<div class="title-forgot-password">
+			<h2>Please check your email</h2>
+			<p>We’ve sent a code to @ViewData["RecipientEmail"]</p>
+		</div>
+		<div class="code-input">
+			<input type="text" name="digit1" maxlength="1" pattern="\d" oninput="moveToNext(this, 'input2')" required>
+			<input type="text" name="digit2" id="input2" maxlength="1" pattern="\d" oninput="moveToNext(this, 'input3')" required>
+			<input type="text" name="digit3" id="input3" maxlength="1" pattern="\d" oninput="moveToNext(this, 'input4')" required>
+			<input type="text" name="digit4" id="input4" maxlength="1" pattern="\d" required>
+		</div>
+		<button type="submit" class="send-code-button">
+			<p>Verify</p>
+		</button>
+		<div hidden id="resent-code" class="resent-code">
+			<span>
+				I didn’t receive a code
+			</span>
+			<a asp-controller="Signin" asp-action="ResendEmail" asp-route-recipient_email="@ViewData["RecipientEmail"]">
+				Resend
+			</a>
+		</div>
+		<div id="sent-code" class="sent-code">
+			<span>
+				Send code again&nbsp
+			</span>
+			<span id="countdown">
+				
+			</span>
+		</div>
+	</div>
+</form>
+
+<!-- Add this script at the end of the page to ensure all DOM elements are loaded -->
+<script>
+	function executeOnPageLoad() {
+		// Check if there is a stored countdown value in localStorage
+		let countdownSeconds = localStorage.getItem('countdownSeconds');
+
+		// If not, set the initial countdown time in seconds
+		if (countdownSeconds === null) {
+			countdownSeconds = 59;
+		}
+
+		// Function to update the countdown timer in the HTML
+		function updateCountdown() {
+			// Select the HTML element where you want to display the countdown
+			const countdownElement = document.getElementById("countdown");
+
+			// Calculate minutes and seconds
+			const minutes = Math.floor(countdownSeconds / 60);
+			const seconds = countdownSeconds % 60;
+
+			// Update the HTML content with the current countdown value
+			countdownElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+			// Decrease the countdown by 1 second
+			countdownSeconds--;
+
+			// Store the updated countdown value in localStorage
+			localStorage.setItem('countdownSeconds', countdownSeconds);
+
+			// Check if the countdown has reached zero
+			if (countdownSeconds < 0) {
+				// Optionally, you can perform specific actions when the countdown reaches zero
+				document.getElementById('sent-code').hidden = true;
+				document.getElementById('resent-code').hidden = false;
+
+				// Clear the interval to stop the countdown
+				clearInterval(countdownInterval);
+
+				// Clear the stored countdown value in localStorage
+				localStorage.removeItem('countdownSeconds');
+			}
+		}
+		// Call the updateCountdown function immediately to display the current countdown
+		updateCountdown();
+		// Call the updateCountdown function every second
+		const countdownInterval = setInterval(updateCountdown, 1000);
+
+	}
+
+	window.onload = executeOnPageLoad;
+</script>

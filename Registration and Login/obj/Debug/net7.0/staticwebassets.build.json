@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iiq5MRiHoTsH52dZHmO1DUg609tHd+98v7HrEXYjCzo=",
+  "Hash": "BKVyLNSgc+HsMDPunKIVH/NaizC58mkU1/I3gIYNeLc=",
   "Source": "Registration and Login",
   "BasePath": "_content/Registration and Login",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\fonts\\Inter-Medium.ttf",
+      "SourceId": "Registration and Login",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\",
+      "BasePath": "_content/Registration and Login",
+      "RelativePath": "fonts/Inter-Medium.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Inter-Medium.ttf"
     },
     {
       "Identity": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\fonts\\Inter-Regular.ttf",

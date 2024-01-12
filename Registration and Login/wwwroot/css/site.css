@@ -13,6 +13,11 @@
     src: url(../fonts/Inter-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/Inter-Medium.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -204,6 +209,26 @@ body {
         padding-top: 15px;
     }
 
+.create-account-button2 {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    height: 55px;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+    .create-account-button2 p {
+        font-family: Inter-Semi-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 15px;
+    }
+
 .qualification {
     font-family: Inter-Regular;
     font-size: 14px;
@@ -378,4 +403,60 @@ a {
 .remember-password a {
     font-family: Inter-Semi-Bold;
     color: black;
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}*/
+
+.code-input {
+    display: flex;
+}
+
+    .code-input input {
+        margin-top: 20px;
+        margin-left: 17px;
+        border-radius: 15px;
+        border: solid 1px #D8DADC;
+        width: 77px;
+        height: 77px;
+        text-align: center;
+        font-size: 32px;
+        font-family: Inter-Medium;
+    }
+
+.resent-code {
+    margin-top: 38px;
+    margin-left: 80px;
+}
+
+    .resent-code span {
+        font-family: Inter-Regular;
+        opacity: 70%;
+    }
+
+    .resent-code a {
+        font-family: Inter-Semi-Bold;
+        color: black;
+    }
+
+.sent-code {
+    margin-top: 38px;
+    margin-left: 106px;
+}
+
+    .sent-code span {
+        font-family: Inter-Semi-Bold;
+        color: black;
+        opacity: 80%;
+    }
+
+#countdown {
+    font-family: Inter-Regular;
+    opacity: 70%;
 }

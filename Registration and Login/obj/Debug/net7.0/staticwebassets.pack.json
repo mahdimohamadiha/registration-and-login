@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\fonts\\Inter-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Inter-Medium.ttf"
+    },
+    {
       "Id": "D:\\.NET\\.NET MVC\\registration-and-login\\Registration and Login\\wwwroot\\fonts\\Inter-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\Inter-Regular.ttf"
     },
